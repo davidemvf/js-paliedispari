@@ -1,5 +1,5 @@
-// L’utente sceglie pari o dispari e un numero da 1 a 5.
-// Generiamo un numero random (sempre da 1 a 5) per il computer e dichiariamo chi ha vinto.
+// L’utente sceglie pari o dispari.
+// Generiamo due numeri random (da 1 a 5) e dichiariamo chi ha vinto.
 
 
 // Creo variabili per la scelta pari o dispari da parte dell'utente, definisco le due variabili con un valore random da 1 a 5
@@ -28,7 +28,6 @@ if (utente === parita) {
 function somma( n_uno, n_due ){
   var risultato = n_uno + n_due;
   return risultato;
-
 }
 
 function parita(n) {
@@ -39,5 +38,4 @@ function parita(n) {
     even = "dispari"
     return even;
   }
-
 }
